@@ -1,0 +1,1 @@
+from .eb_resnet import resnet_generic
