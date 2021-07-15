@@ -32,7 +32,7 @@ You can construct this structure using for example the script found [here](https
 
 ## 2. Testing pretrained model
 
-A packed model, with the extra training components removed (i.e. the gate selection is performed using selection instead of multiplication as its the case for training etc) is available for download [here](https://www.adrianbulat.com/downloads/ICLR2021/model_binary_ebresnet.pth).
+A packed model, with the extra training components removed (i.e. the gate selection is performed using selection instead of multiplication as its the case for training etc) is available for download [here](https://www.adrianbulat.com/downloads/ICLR2021/model_binary_ebresnet.pth.tar).
 
 ```
 python test/test.py imagenet_valid_location --path-to-model download_model_path
