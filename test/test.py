@@ -1,3 +1,6 @@
+import sys
+sys.path.append('.')
+
 from utils.misc import AverageMeter, accuracy
 import argparse
 
@@ -5,9 +8,6 @@ import torch
 from model import resnet_generic
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
-
-import sys
-sys.path.append('.')
 
 parser = argparse.ArgumentParser(description='PyTorch EBConv ImageNet Testing')
 parser.add_argument(
